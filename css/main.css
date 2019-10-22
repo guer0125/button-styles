@@ -14,7 +14,7 @@ div {
 
 body {
   width: 100%;
-  margin: 0;
+  margin: auto;
   padding: .4em .75em .3em;
 }
 
@@ -23,6 +23,7 @@ body {
   padding: .4em .75em .3em;
   border: 3px;
   border-radius: 8px;
+  border-style: solid;
   text-decoration: none;
 }
 
@@ -43,38 +44,44 @@ body {
   background-color: #333;
   color: #fff;
   display: inline-block;
+  border-color: #333;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
+  border-color: #f33;
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  border-style: solid;
   border-color: #000;
 }
 
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
+  border-color: #ccc;
 }
 
 .btn:hover {
   background-color: #000;
+  border-color: #000;
 }
 
 .btn-subtle:hover {
   background-color: #666;
+  border-color: #666;
 }
 
 .btn-ghost:hover {
   background-color: #666;
+  border-color: #666;
   color: #fff;
 }
 
 .btn-warning:hover {
   background-color: #933;
+  border-color: #933;
 }
